@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristofer LLasag | Atleta del Instituto Nacional Mejía</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 0.5rem;
+    }
+    .medals, .events {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1 1 calc(33.333% - 2rem);
+      min-width: 250px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cristofer LLasag</h1>
+    <p>Atleta del Instituto Nacional Mejía | 33 Medallas | Club de Baloncesto</p>
+  </header>
+
+  <section>
+    <h2>Biografía</h2>
+    <p>Cristofer LLasag es un destacado atleta del Instituto Nacional Mejía. Con una trayectoria sólida, ha acumulado 33 medallas en distintas disciplinas del atletismo, demostrando compromiso, talento y versatilidad. También forma parte del club de baloncesto del colegio, siendo un referente deportivo integral.</p>
+  </section>
+
+  <section>
+    <h2>Pruebas Competidas</h2>
+    <div class="events">
+      <div class="card">100 metros planos</div>
+      <div class="card">200 metros planos</div>
+      <div class="card">400 metros planos</div>
+      <div class="card">800 metros</div>
+      <div class="card">1500 metros</div>
+      <div class="card">Salto largo</div>
+      <div class="card">Lanzamiento de bala</div>
+      <div class="card">Lanzamiento de jabalina</div>
+      <div class="card">Lanzamiento de martillo</div>
+      <div class="card">Lanzamiento de disco</div>
+      <div class="card">Posta 4x100</div>
+      <div class="card">Posta 4x400</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Medallas</h2>
+    <p>Total acumulado: <strong>33 medallas</strong> en eventos intercolegiales y competencias deportivas.</p>
+  </section>
+
+  <section>
+    <h2>Galería</h2>
+    <div class="gallery">
+      <p>Aquí puedes incluir tus fotos más destacadas en competencias y entrenamientos. (Cuando estés listo, dime y las insertamos).</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>Puedes encontrarme en redes sociales o escribirme para entrevistas, apoyo deportivo o colaboraciones.</p>
+  </section>
+</body>
+</html>
+
